@@ -13,5 +13,4 @@ def testing():
 
 if __name__ == "__main__":
     # The uvicorn.run command starts the server
-    # --port 5000 sets the server to run on port 5000
     uvicorn.run("main:app", host="localhost", port=5000, reload=True)
